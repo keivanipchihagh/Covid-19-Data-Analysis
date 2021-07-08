@@ -1,5 +1,5 @@
 # Covid-19 Data Analysis
- Covid-19 country-wise analysis with up-to-date daily data from WHO
+ Covid-19 country-wise analysis with up-to-date daily data from WHO until July, 7, 2021.
 
 ## DataBase Setup (MySQL)
 Setting up the Database can be a bit tricky. For MySQL users, follow these instructions:
@@ -7,14 +7,14 @@ Setting up the Database can be a bit tricky. For MySQL users, follow these instr
 2. Run **"create_tables.sql"** query file located in the repo in order to create table structures.
 3. Then use the following commans to import the data into your workbench:
 ```sql
-LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccination
+LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccinations
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 ```
 
 ```sql
-LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeath.csv" INTO TABLE covid19.CovidDeath
+LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeaths.csv" INTO TABLE covid19.CovidDeaths
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
