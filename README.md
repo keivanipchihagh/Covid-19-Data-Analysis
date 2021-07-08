@@ -14,7 +14,7 @@ IGNORE 1 LINES
 ```
 
 ```sql
-LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeath.csv" INTO TABLE covid19.CovidDeaths
+LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeaths.csv" INTO TABLE covid19.CovidDeaths
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
