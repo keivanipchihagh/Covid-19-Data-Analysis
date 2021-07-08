@@ -7,14 +7,14 @@ Setting up the Database can be a bit tricky. For MySQL users, follow these instr
 2. Run **"create_tables.sql"** query file located in the repo in order to create table structures.
 3. Then use the following commans to import the data into your workbench:
 ```sql
-LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccination
+LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccinations
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 ```
 
 ```sql
-LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeath.csv" INTO TABLE covid19.CovidDeath
+LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidDeath.csv" INTO TABLE covid19.CovidDeaths
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
