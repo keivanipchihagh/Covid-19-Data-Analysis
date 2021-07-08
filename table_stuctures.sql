@@ -1,9 +1,10 @@
 /* CREATE TABLE */
-CREATE TABLE CovidVaccination(
+CREATE TABLE CovidVaccinations(
 iso_code VARCHAR(100),
 continent VARCHAR(100),
 location VARCHAR(100),
 date VARCHAR(100),
+population DOUBLE,
 new_tests VARCHAR(100),
 total_tests VARCHAR(100),
 total_tests_per_thousand VARCHAR(100),
@@ -23,7 +24,6 @@ people_vaccinated_per_hundred VARCHAR(100),
 people_fully_vaccinated_per_hundred VARCHAR(100),
 new_vaccinations_smoothed_per_million VARCHAR(100),
 stringency_index DOUBLE,
-population DOUBLE,
 population_density DOUBLE,
 median_age DOUBLE,
 aged_65_older DOUBLE,
@@ -42,11 +42,12 @@ excess_mortality VARCHAR(100)
 );
 
 /* CREATE TABLE */
-CREATE TABLE CovidDeath(
+CREATE TABLE CovidDeaths(
 iso_code VARCHAR(100),
 continent VARCHAR(100),
 location VARCHAR(100),
 date VARCHAR(100),
+population DOUBLE,
 total_cases DOUBLE,
 new_cases DOUBLE,
 new_cases_smoothed VARCHAR(100),
