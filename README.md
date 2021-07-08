@@ -1,5 +1,5 @@
 # Covid-19 Data Analysis
- Covid-19 country-wise analysis with up-to-date daily data from WHO
+ Covid-19 country-wise analysis with up-to-date daily data from WHO until July, 7, 2021.
 
 ## DataBase Setup (MySQL)
 Setting up the Database can be a bit tricky. For MySQL users, follow these instructions:
