@@ -1,3 +1,5 @@
+-- drop tables coviddeaths, covidvaccinations;
+
 /* CREATE TABLE */
 CREATE TABLE CovidVaccinations(
 iso_code VARCHAR(100),
@@ -70,3 +72,13 @@ weekly_icu_admissions_per_million VARCHAR(100),
 weekly_hosp_admissions VARCHAR(100),
 weekly_hosp_admissions_per_million VARCHAR(100)
 );
+
+-- LOAD DATA LOCAL INFILE "E:\\GitHub\\Covid-19-Data-Analysis\\OWID dataset\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccinations
+-- FIELDS TERMINATED BY ','
+-- LINES TERMINATED BY '\n'
+-- IGNORE 1 LINES;
+
+-- LOAD DATA LOCAL INFILE "E:\\GitHub\\Covid-19-Data-Analysis\\OWID dataset\\CovidDeaths.csv" INTO TABLE covid19.coviddeaths
+-- FIELDS TERMINATED BY ','
+-- LINES TERMINATED BY '\n'
+-- IGNORE 1 LINES
