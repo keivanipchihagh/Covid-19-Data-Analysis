@@ -25,9 +25,9 @@ IGNORE 1 LINES
 
 ## Steps
 1. SQL Data Exploration (Video based)
-2. More Data Exploration
-3. Data Visualization with Tableau
+2. Data Visualization with Tableau
 
 ## Links
-- [Data Analyst Portfolio Project](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&ab_channel=AlexTheAnalyst)
+- [Data Analyst Portfolio Project - YouTube playlist](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&ab_channel=AlexTheAnalyst)
+- [Data Analyst Portfolio Project - GitHub repo](https://github.com/AlexTheAnalyst/PortfolioProjects)
 - [Original Data Source](https://ourworldindata.org/covid-deaths)
