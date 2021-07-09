@@ -23,5 +23,11 @@ IGNORE 1 LINES
 5. In case you ran into an error that looked something like **"LOAD DATA LOCAL INFILE file request rejected due to restrictions on access"**, refer to [Lift Local-Restriction](https://stackoverflow.com/questions/63361962/error-2068-hy000-load-data-local-infile-file-request-rejected-due-to-restrict#answer-64807264).
 6. In case none of the steps worked, first RIP❤, then run your queries manually with [beautifytools](https://beautifytools.com/csv-to-sql-converter.php). (This can be quite time-consuming!)
 
+## Steps
+1. SQL Data Exploration (Video based)
+2. More Data Exploration
+3. Data Visualization with Tableau
+
 ## Links
+- [Data Analyst Portfolio Project](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&ab_channel=AlexTheAnalyst)
 - [Original Data Source](https://ourworldindata.org/covid-deaths)
