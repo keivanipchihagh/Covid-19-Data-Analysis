@@ -65,6 +65,14 @@ INNER JOIN coviddeaths AS deaths
 WHERE deaths.continent != ''
 ORDER BY 2, 3;
 
+-- Rates
+SELECT deaths.continent, deaths.location, deaths.date,
+	ROUND(total_deaths / total_cases * 100, 2) AS death_rate, ROUND(total_vaccinations / deaths.population * 100, 2) AS vaccination_rate
+FROM coviddeaths AS deaths
+INNER JOIN covidvaccinations AS vaccines
+	ON deaths.date = vaccines.date AND deaths.location = vaccines.location
+ORDER BY location, date;
+
 -- Population vs vaccinations
 SELECT *, (rolling_vaccination / population * 100) AS 'PopvsVac' FROM (
 	SELECT deaths.continent, deaths.location, deaths.date, deaths.population, vaccines.new_vaccinations,
