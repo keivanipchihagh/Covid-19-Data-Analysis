@@ -1,10 +1,10 @@
 # Covid-19 Data Analysis
- Covid-19 country-wise analysis with up-to-date daily data from WHO until July, 7, 2021.
+ ☠ Covid-19 deaths & vaccination analysis with daily-updated data from OWID dataset.
 
 ## DataBase Setup (MySQL)
 Setting up the Database can be a bit tricky. For MySQL users, follow these instructions:
 1. Create a Database Schema and name it **"covid19"**.
-2. Run **"table_stuctures.sql"** query file located in the repo in order to create table structures.
+2. Run **"table_stuctures.sql"** query file from *"DB setup" folder* to create table structures.
 3. Then use the following commans to import the data into your workbench:
 ```sql
 LOAD DATA LOCAL INFILE "Absolute\\path\\to\\file\\CovidVaccinations.csv" INTO TABLE covid19.covidvaccinations
